@@ -7,13 +7,6 @@ const routes = [
       { path: 'help', name: 'help', component: () => import('pages/InfoPage.vue') }
     ]
   },
-  {
-    path: '/',
-    component: () => import('layouts/EmptyLayout.vue'),
-    children: [
-      { path: 'aboutme', name: 'aboutme', component: () => import('src/pages/AboutmePage.vue') }
-    ]
-  },
 
   // Always leave this as last one,
   // but you can also remove it

@@ -53,7 +53,8 @@
             </q-item>
 
             <q-item
-              to="aboutme"
+              href="https://portofolio.ridhodzaki.repl.co"
+              target="_blank"
               clickable
               v-ripple
               exact
